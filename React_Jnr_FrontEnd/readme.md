@@ -2,19 +2,21 @@
 
 Make simple application for posts and comments. 
 
-Default view will contain posts with date and headline (see picture 1.png) in order from newest to older. 
+Default view will contain posts with date and headline (see [picture 1.png](https://github.com/db001/tech_challenges/blob/master/React_Jnr_FrontEnd/1.png)) in order from newest to older. 
 
 ### Post events:
-  * On click on concrete post - show its text and all its list of comments in order from oldest to newer (see picture 2.png).
+  * On click on concrete post - show its text and all its list of comments in order from oldest to newer ([see picture 2.png](https://github.com/db001/tech_challenges/blob/master/React_Jnr_FrontEnd/2.png)).
+  
   * On click on "x" icon button (on post)
   
       If post has at least one comment, show standard alert dialog with error message  
-      If post hasn't any comment, delete the post    
-  * On click on "comment" icon button (on post) - show "new comment dialog" (see picture 4.png).
+      If post hasn't any comment, delete the post  
+      
+  * On click on "comment" icon button (on post) - show "new comment dialog" (see [picture 4.png](https://github.com/db001/tech_challenges/blob/master/React_Jnr_FrontEnd/4.png)).
 
 ### Other events:
 
-  * On click on "new post" button - show "new post dialog" (see picture 3.png).
+  * On click on "new post" button - show "new post dialog" (see [picture 3.png](https://github.com/db001/tech_challenges/blob/master/React_Jnr_FrontEnd/3.png)).
 
 ### New post dialog:
 
