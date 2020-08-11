@@ -1,0 +1,24 @@
+{
+    "name": "itechcalculator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "concurrently \"npm run phpserver --prefix ./server\" \"npm run dev --prefix ./client\"",
+        "servers": "concurrently \"npm run phpserver --prefix ./server\" \"npm run server --prefix ./client\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/db001/itechCalculator.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/db001/itechCalculator/issues"
+    },
+    "homepage": "https://github.com/db001/itechCalculator#readme",
+    "dependencies": {
+        "concurrently": "^5.2.0"
+    }
+}

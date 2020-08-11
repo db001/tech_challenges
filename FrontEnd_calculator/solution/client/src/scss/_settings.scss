@@ -1,0 +1,12 @@
+// Contains font & colour definitions, etc.
+// There should be no CSS output here
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+$main-font: "Lato", sans-serif;
+$font-color: #fff;
+$display-background: #25363b;
+$misc-button-background: #ec475c;
+$numeric-button-background: #f6827a;
+$operator-button-background: #f7ba86;
+$button-size: 50px;

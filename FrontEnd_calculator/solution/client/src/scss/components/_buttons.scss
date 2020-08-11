@@ -1,0 +1,43 @@
+.button_row {
+    border-bottom: 1px solid #c7966c;
+    display: flex;
+    width: 100%;
+
+    .button {
+        cursor: pointer;
+        font-weight: 300;
+        font-size: 1.25rem;
+        height: $button-size;
+        line-height: $button-size;
+        width: $button-size;
+
+        &:active {
+            box-shadow: inset 1px 1px 2px rgba(75, 75, 75, 0.25);
+        }
+
+        &__misc {
+            background-color: $misc-button-background;
+            width: (4 * $button-size - $button-size) / 2;
+            &:hover {
+                background-color: darken($misc-button-background, 2%);
+            }
+        }
+
+        &__numeric {
+            background-color: $numeric-button-background;
+            &:hover {
+                background-color: darken($numeric-button-background, 2%);
+            }
+            &.button__blank {
+                pointer-events: none;
+            }
+        }
+        &__operator,
+        &__equals {
+            background-color: $operator-button-background;
+            &:hover {
+                background-color: darken($operator-button-background, 2%);
+            }
+        }
+    }
+}

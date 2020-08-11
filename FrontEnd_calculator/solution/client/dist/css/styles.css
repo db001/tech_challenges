@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+html,
+body {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+.calculator {
+  margin: 64px auto 0;
+  width: 200px;
+}
+
+.display {
+  background-color: #25363b;
+  padding: 16px;
+  text-align: right;
+}
+.display .input {
+  color: #747c80;
+  font-weight: 300;
+  font-size: 1.25rem;
+  height: 1.25rem;
+}
+.display .total {
+  font-size: 2.5rem;
+  height: 2.5rem;
+}
+
+.button_row {
+  border-bottom: 1px solid #c7966c;
+  display: flex;
+  width: 100%;
+}
+.button_row .button {
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 1.25rem;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+}
+.button_row .button:active {
+  box-shadow: inset 1px 1px 2px rgba(75, 75, 75, 0.25);
+}
+.button_row .button__misc {
+  background-color: #ec475c;
+  width: 75px;
+}
+.button_row .button__misc:hover {
+  background-color: #eb3e54;
+}
+.button_row .button__numeric {
+  background-color: #f6827a;
+}
+.button_row .button__numeric:hover {
+  background-color: #f57970;
+}
+.button_row .button__numeric.button__blank {
+  pointer-events: none;
+}
+.button_row .button__operator, .button_row .button__equals {
+  background-color: #f7ba86;
+}
+.button_row .button__operator:hover, .button_row .button__equals:hover {
+  background-color: #f6b57c;
+}

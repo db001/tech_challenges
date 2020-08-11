@@ -1,0 +1,13 @@
+// Reset and/or normalize styles, box-sizing, etc.
+
+html,
+body {
+    color: $font-color;
+    font-family: $main-font;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
